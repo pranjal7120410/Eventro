@@ -1,0 +1,545 @@
+@media screen and (max-width:1024px){
+
+    .container-fluid{
+        padding: 0 26px !important;
+        width: 100% !important;
+    }
+    .card-img img{
+        width: 229px !important;
+    }
+    .service-card{
+        width: 229px !important;
+    }
+    .card-img{
+        width: 229px !important;
+    }
+    .card-img2 img{
+        width: 229px;
+    }
+    .card-img2{
+        width: 229px;
+    }
+    .img-block img{
+        width: 482px !important; 
+        height: 450px !important;
+    }
+    .banner-line-img img{
+        width: 344px !important;
+        height: 49px !important;
+    }
+    .h1{
+        font-size: 48px !important;
+        width: 482px !important;
+    }
+    .img-1{
+        width: 150px !important;
+        height: 170px !important;
+    }
+    .img-2{
+        width: 265px !important;
+        height: 356px !important;
+    }
+    .img-3{
+        width: 210px !important;
+        height: 230px !important;
+    }
+    .h2{
+        font-size: 28px !important;
+    }
+    .h4-about{
+        font-size: 28px !important;
+    }
+    .h5{
+        font-size: 20px !important;
+    }
+    .count-img1 img{
+        width: 30px !important;
+        height: 30px !important;
+    }
+    .count-img2 img{
+        width: 28px !important;
+        height: 28px !important;
+    }
+    .count-img3 img{
+        width: 32px !important;
+        height: 32px !important;
+    }
+    .glr-1{
+        width: 308px !important;
+    }
+    .glr-2{
+        width: 313px !important;
+    }
+    .glr-5{
+        width: 640px !important;
+        height: 273px !important;
+    }
+    .wrapper-sec{
+        height: 1700px !important;
+    }
+    .background-sec{
+        width: 1024px !important;
+        height: 1950px !important;
+    }
+    .pricing-card{
+        width: 482px !important;
+        height: 600px !important;
+    }
+    .card-img2 img{
+        width: 229px !important;
+        height: 279px !important;
+    }
+    .blog-card{
+        width: 229px !important;
+        height: 279px !important;
+    }
+    .background-sec2{
+        width: 1024px !important;
+        height: 680px !important;
+    }
+    .last-sec-btn{
+        margin-top: 120px;
+    }
+    .ftr-input{
+        width: 293px !important;
+    }
+    .book-btn{
+        padding: 9px 23px 9px 23px !important;
+    }
+    .test-h3{
+        font-size: 24px !important;
+    }
+    .contact-img img{
+        width: 482px !important;
+        height: 626px !important;
+        object-fit: cover !important;
+    }
+    .wrp-sec{
+        height: 916px !important;
+    }
+    .jts{
+        width: 277px !important;
+    }
+    .tst{
+        margin-left: 40px !important;
+    }
+    .gl1{
+        width: 210px !important;
+        height: 290px !important;
+    }
+    .gl2{
+      width: 200px !important;
+      height: 238px !important;
+    }
+    .gl5{
+      width: 425px !important;
+      height: 178px !important;
+    }
+    .gl0{
+      width: 200px !important;
+      height: 134px !important;
+    }
+    .slide-text-one{
+        background-color: transparent !important;
+    }
+    .brd{
+        height: 362px !important;
+    }
+    .stl{
+        background-color: #f3f4ec !important;
+    }
+}
+@media screen and (max-width:768px){
+    .background-sec2{
+        width: 768px !important;
+        height: 1249px !important;
+    }
+    .wrapper-sec{
+        width: 768px !important;
+        height: 3998px !important;
+    }
+    .background-sec{
+        width: 768px !important;
+        height: 2038px !important;
+    }
+    .pricing-card{
+        width: 354px !important;
+    }
+    .h1{
+        width: 354px !important;
+    }
+    .img-2{
+        width: 250px !important;
+        height: 270px !important;
+    }
+    .img-block img{
+        width: 623px !important; 
+        height: 581px !important;
+        margin-left: 40px;
+    }
+    .about-content{
+        margin-left: 0px !important;
+    }
+    .card-img img{
+        width: 354px !important;
+    }
+    .service-card{
+        width: 354px !important;
+    }
+    .card-img{
+        width: 354px !important;
+    }
+    .glr-1{
+        width: 720px !important;
+    }
+    .glr-2{
+        width: 354px !important;
+    }
+    .glr-5{
+        width: 732px !important;
+        height: 307px !important;
+    }
+    .contact-img img{
+        width: 721px !important;
+    }
+    .card-img2 img{
+        width: 354px !important;
+        height: 427px !important;
+    }
+    .card-img2{
+        width: 354px !important;
+        height: 427px !important;
+    }
+    .blog-card{
+        width: 354px !important;
+        height: 427px !important;
+    }
+    .last-sec-btn{
+        margin-top: 30px;
+    }
+    .wrp-sec{
+        height: 2500px !important;
+    }
+    .jts{
+        width: 696px !important;
+    }
+    .tst{
+        margin-left: 240px !important;
+    }
+    .gl1{
+        width: 732px !important;
+        height: 1007px !important;
+    }
+    .gl2{
+      width: 354px !important;
+      height: 419px !important;
+    }
+    .gl5{
+      width: 732px !important;
+      height: 307px !important;
+    }
+    .gl0{
+      width: 732px !important;
+      height: 490px !important;
+    }
+    .contact-img{
+        margin-left: -10px !important;
+    }
+    .g-map iframe{
+        height: 290px !important;
+    }
+     .brd{
+        height: 503px !important;
+    }
+}
+@media screen and (max-width:426px){
+
+     .img-block img{
+        width: 394px !important;
+        height: 367px !important;
+        margin-left: 0px !important;
+     }
+     .wrapper-sec{
+        width: 425px !important;
+        height: 3300px !important;
+     }
+    .glr-1{
+        width: 393px !important;
+        margin-left: -10px;
+        height: 250px !important;
+    }
+    .glr-2{
+        width: 393px !important;
+        height: 250px !important;
+        margin-left: -10px;
+    }
+    .glr-5{
+        width: 393px !important;
+        height: 250px !important;
+        height: 250px !important;
+        margin-left: -10px;
+    }
+    .background-sec{
+        width: 425px !important;
+        height: 3500px !important;
+    }
+    .contact-img img{
+        width: 393px !important;
+        height: 355px !important;
+    }
+    .background-sec2{
+        width: 425px !important;
+        height: 1700px !important;
+    }
+    .card-img{
+        margin-left: 20px;
+    }
+    .pricing-card{
+        margin-left: 10px;
+    }
+    .card-img2{
+        margin-left: 10px;
+    }
+    .ftr-input{
+        width: 230px !important;
+    }
+    .time-block{
+        justify-content: start !important;
+    }
+    .book-btn{
+        padding:0px !important;
+        width: 127px !important;
+        height: 44px !important;
+    }
+    .card-img , .card-img2 img{
+        height: 250px !important;
+        object-fit: cover;
+    }
+    .blog-card{
+        height: 321px !important;
+    }
+    .wrp-sec{
+        height: 1600px !important;
+    }
+    .jts{
+        width:307px !important;
+        margin-left: 0px !important;
+    }
+    .tst{
+        margin-left:0px !important;
+    }
+    .gl1{
+        width: 393px !important;
+        height: 250px !important;
+    }
+    .gl2{
+      width: 393px !important;
+      height: 250px !important;
+    }
+    .gl5{
+      width: 393px !important;
+      height: 250px !important;
+    }
+    .gl0{
+      width: 393px !important;
+      height: 250px !important;
+    }
+    .fny-btn{
+        margin: 10px 0;
+    }
+    .con-h4{
+        font-size: 20px !important;
+    }
+    .br-4{
+        width: 118px !important
+    }
+}
+@media screen and (max-width:376px){
+     .img-block img{
+        width: 343px !important;
+        height: 320px !important;
+        margin-left: 0px !important;
+     }
+     .wrapper-sec{
+        width: 375px !important;
+        height: 3350px !important;
+     }
+    .glr-1{
+        width: 343px !important;
+        margin-left: -10px;
+    }
+    .glr-2{
+        width: 343px !important;
+        margin-left: -10px;
+    }
+    .glr-5{
+        width: 343px !important;
+        height: 250px !important;
+        margin-left: -10px;
+    }
+    .background-sec{
+        width: 375px !important;
+        height: 3650px !important;
+    }
+    .contact-img img{
+        width: 343px !important;
+        height: 310px !important;
+        margin-left: -10px;
+    }
+    .background-sec2{
+        width: 375px !important;
+        height: 1750px !important;
+    }
+    .card-img{
+        margin-left: -30px;
+    }
+    .pricing-card{
+        margin-left: -17px;
+    }
+    .card-img2{
+        margin-left: -10px;
+    }
+    .ftr-input{
+        width: 230px !important;
+    }
+    .card-img , .card-img2 img{
+        width: 342px !important;
+        height: 250px !important;
+        object-fit: cover;
+    }
+    .h4-about{
+        width: 343px !important;
+        font-size: 20px !important;
+    }
+     .wrp-sec{
+        height: 1600px !important;
+    }
+     .mobile-img{
+        width: 343px !important;
+        height: 300px !important;
+        margin-left: -10px;
+    }
+    .contact-img{
+        margin-left: 0px !important;
+    }
+     .br-4{
+        width: 98px !important;
+        height: 110px !important;
+    }
+    .blog-card{
+        width: 342px !important;
+        height: 326px !important;
+    }
+}
+@media screen and (max-width:321px){
+    .banner-line-img img{
+        width: 288px !important;
+        height: 41px !important;
+    }
+    .h1{
+        width: 288px !important;
+    }
+    .img-block img{
+        width: 288px !important;
+        height: 269px !important;
+    }
+     .wrapper-sec{
+        width: 320px !important;
+        height: 3350px !important;
+     }
+    .glr-1{
+        width: 288px !important;
+        margin-left: -10px;
+    }
+    .glr-2{
+        width: 288px !important;
+        margin-left: -10px;
+    }
+    .glr-5{
+        width: 288px !important;
+        height: 250px !important;
+        margin-left: -10px;
+    }
+    .background-sec{
+        width: 320px !important;
+        height: 4250px !important;
+    }
+    .contact-img img{
+        width: 288px !important;
+        height: 260px !important;
+        margin-left: -10px;
+    }
+    .background-sec2{
+        width: 320px !important;
+        height: 2050px !important;
+    }
+    .card-img{
+        margin-left: -30px;
+    }
+    .pricing-card{
+        margin-left: -17px;
+        width: 288px !important;
+        height: 710px !important;
+    }
+    .card-img2{
+        margin-left: -10px;
+    }
+    .ftr-input{
+        width: 129px !important;
+    }
+    .card-img , .card-img img ,.card-img2 img{
+        width: 288px !important;
+        height: 250px !important;
+        object-fit: cover;
+    }
+    .h4-about{
+        width: 288px !important;
+        font-size: 20px !important;
+    }
+    .service-card{
+        width: 288px !important;
+        height: 356px !important;
+    }
+    .card-content{
+        margin-left: -25px;
+        width: 320px !important;
+    }
+    .blog-card{
+        width: 300px !important;
+        margin-left: -4px;
+    }
+     .wrp-sec{
+        height: 1700px !important;
+    }
+    .jts{
+        width:252px !important;
+        margin-left: 0px !important;
+    }
+    .tst{
+        margin-left:20px !important;
+    }
+    .gl1{
+        width: 288px !important;
+        height: 250px !important;
+    }
+    .gl2{
+      width: 288px !important;
+      height: 250px !important;
+    }
+    .gl5{
+      width: 288px !important;
+      height: 250px !important;
+    }
+    .gl0{
+      width: 288px !important;
+      height: 250px !important;
+    }
+    .mobile-img{
+        width: 288px !important;
+        height: 300px !important;
+    }
+    .br-4{
+        width: 80px !important;
+    }
+}
+
