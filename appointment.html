@@ -3,16 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Eventro</title>
+    <title>Eventro | Event Planning Template</title>
+
+    <link rel="shortcut icon" href="image/favicon.png" type="image/x-icomn">
+
     <link rel="stylesheet" href="css/animate.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="font/bootstrap-icons.min.css">
-     <link rel="stylesheet" href="css/jquery.fancybox.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/all.min.css">
-    <link rel="stylesheet" href="css/media2.css">
-    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body style="background-color: #fafafa;">
     <header class="header">
@@ -22,22 +24,22 @@
                     <img src="image/logo.png" alt="">
                 </a>
                 <div class="menu-btn-right px-4 d-flex align-items-center justify-content-center d-xl-block d-none">
-                    <div class="main-nav text-center mt-1">
+                    <div class="main-nav text-center mt-2">
                         <ul class="main_menu">
-                            <li><a href="index3.html">Home</a></li>
-                            <li><a href="about3.html">About Us</a></li>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
                             <li><a href="#">Services</a>
                             <ul class="sub_menu">
-                                <li><a href="service3.html">Services</a></li>
-                                <li><a href="service-detail3.html">Services Detail</a></li>
-                                <li><a href="appointment3.html">Appointment</a></li>
+                                <li><a href="service.html">Services</a></li>
+                                <li><a href="service-detail.html">Services Detail</a></li>
+                                <li><a href="appointment.html">Appointment</a></li>
                             </ul></li>
                             <li><a href="#">Blog</a>
                             <ul class="sub_menu">
-                                <li><a href="blog3.html">Blog</a></li>
-                                <li><a href="blogdetail3.html">Blog Detail</a></li>
+                                <li><a href="blog.html">Blog</a></li>
+                                <li><a href="blogdetail.html">Blog Detail</a></li>
                             </ul></li>
-                            <li><a href="contact3.html">Contact Us</a></li>
+                            <li><a href="contact.html">Contact Us</a></li>
                         </ul>
                     </div>
                 </div>
@@ -46,7 +48,7 @@
                         <div class="d-flex align-items-center gap-4">
                             <a href="#" class="cus-btn1 position-relative d-inline-flex align-items-center g-2">
                                 <i class="bi bi-hand-index arr-2"></i>
-                                <span class="text">Book Now</span>
+                                <span class="text">Submit</span>
                                 <span class="circle"></span>
                                 <i class="bi bi-hand-index arr-1"></i>
                             </a>
@@ -70,163 +72,151 @@
         <div class="title-banner d-flex align-items-center justify-content-center">
             <div class="container-fluid">
                 <div class="title">
-                    <h2 class="h2 text-center">Services Details</h2>
+                    <h2 class="h2 text-center">Appointment</h2>
                 </div>
             </div>
         </div>
     </section>
 
+    <section class="contact-sec py-5 cnt">
+        <div class="container-fluid">
+            <div class="heading mb-4">
+                <div class="title mb-2">
+                    <h2 class="text-center wrap-h2">Get <span class="text-primary">Help</span></h2>
+                </div>
+                <p class="text-center wrap-p mb-5">From Concept to Execution, We Handle Every Detail</p>
+            </div>
+            <div class="row row-gap-4 align-items-stretch">
+                <div class="col-lg-6">'
+                    <form method="post" class="contact-from h-100">
+                        <h4 class="mb-3 contact-h4">Book a Service</h4>
+                        <p class="mb-5 contact-pr1">Our friendly team would like to hear from you!</p>
+                        <div class="row row-gap-4 align-items-center mb-4">
+                            <div class="col-lg-6">
+                                <p class="subtitle black mb-2">First Name</p>
+                                <div class="input-block">
+                                    <i class="bi bi-person"></i>
+                                    <input type="text" name="name" id="first1Name" class="form-control" required placeholder="e.g.John">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <p class="subtitle black mb-2">Second Name</p>
+                                <div class="input-block">
+                                    <i class="bi bi-person"></i>
+                                    <input type="text" name="name" id="lastName" class="form-control" required placeholder="e.g.Doe">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <p class="subtitle black mb-2">Phone Number</p>
+                                <div class="input-block">
+                            <i class="bi bi-telephone-fill"></i>
+                                    <input type="text" name="tel" id="tel" class="form-control" required placeholder="+1 234 456 6789">
+                                </div>
+                            </div>
+                            <div class="col-lg-12">
+                                <p class="subtitle black mb-2">Email</p>
+                                <div class="input-block">
+                                    <i class="bi bi-envelope"></i>
+                                    <input type="email" name="email" id="e-mail" class="form-control" required placeholder="sample@gmail.com">
+                                </div>
+                            </div>
+                            <div class="col-lg-4">
+                                <p class="subtitle black mb-2">Service Name</p>
+                                <div class="input-block">
+                                    <i class="bi bi-chevron-down"></i>
+                                   <div class="w-100 drop-container">
+                                    <select  id="dropdown" class="form-control">
+                                        <option value="" class="text-black">Wedding Decor</option>
+                                        <option value="Corporate Event" class="text-black">Corporate Event</option>
+                                        <option value="Thanksgiving" class="text-black">Thanksgiving</option>
+                                        <option value="Catering" class="text-black">Catering</option>
+                                        <option value="Dinning Event" class="text-black">Dinning Event</option>
+                                    </select>
+                                   </div>
+                                </div>
+                            </div> 
+                            <div class="col-lg-4">
+                                <p class="subtitle black mb-2">Date</p>
+                                <div class="input-block">
+                                    <i class="bi bi-calendar"></i>
+                                    <input type="date" name="date" id="date" class="form-control" required placeholder="01/01/2026">
+                                </div>
+                            </div> 
+                            <div class="col-lg-4">
+                                <p class="subtitle black mb-2">Time</p>
+                                <div class="input-block">
+                                    <i class="bi bi-alarm-fill"></i>
+                                    <input type="text" name="time" id="time" class="form-control" required placeholder="10:00">
+                                </div>
+                            </div> 
+                            <div class="col-lg-12">
+                                <p class="subtitle black mb-2">Your Message</p>
+                                <div class="input-block">
+                                    <textarea name="message" id="comments" class="form-control ps-0" placeholder="Your Message Here"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="cus-checkBox mb-3">
+                                    <label for="remember">
+                                        <input type="checkbox"  id="remember">
+                                        I agree to receiving promotional updates.
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="text-end">
+                            <button type="submit" class=" cus-btn1 position-relative d-inline-flex align-items-center g-2">
+                                    <i class="bi bi-hand-index arr-2"></i>
+                                    <span class="text">Book Now</span>
+                                    <span class="circle"></span>
+                                    <i class="bi bi-hand-index arr-1"></i>
+                            </button>
+                        </div>
+                        <div id="message" class="alert-msg"></div>
+                    </form>
+                </div>
+                <div class="col-lg-6 object-fit-cover br-24 h-100 contact-img">
+                    <img src="image/appointment-img.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section>
-        <div class="service-detail my-5">
-            <div class="container-fluid">
-                <div class="row row-gap-4">
-                    <div class="col-lg-8">
-                        <img src="image/service-detail-img.jpg" alt="" class="w-100 mb-4 mobile-img">
-                        <div class="d-flex align-items-center gap-4 mb-4 flex-wrap"></div>
-                        <h4>Wedding Planning by Rihanna Johns</h4>
-                        <p class="mb-4">Lorem ipsum dolor sit amet consectetur. Pellentesque pulvinar congue dictum enim rutrum orci eu. Elit adipiscing auctor augue et quis faucibus gravida. Netus ultricies adipiscing orci dolor eget consectetur justo. Neque lobortis sem mi tempor nulla phasellus. Augue neque orci fringilla nullam donec vestibulum arcu sit turpis. Bibendum egestas in et ornare eget massa ultrices. Aliquam orci ultricies ipsum duis integer odio porta ultrices neque. Id morbi in non sed. Nunc et bibendum turpis malesuada pellentesque.</p>
-
-                        <div class="button-group filter-button-group">
-                            <button data-filter="*" class="fny-btn">Show all</button>
-                            <button data-filter=".overview" class="fny-btn">Overview</button>
-                            <button data-filter=".gallary" class="fny-btn">Gallary</button>
-                            <button data-filter=".review" class="fny-btn">Review</button>
-                        </div>
-
-                        <div class=" row grid">
-                            <div class="col-12 overview mt-5">
-                                <h4 class="mb-2">1. &nbsp;Decor Description</h4>
-                                <p class="mb-4">Learn the fundamentals of web development, including HTML, CSS, JavaScript, and more. Build responsive websites and gain practical experience through hands-on projects.</p>
-                                <h4 class="mb-2">2. &nbsp;Key Highlights</h4>
-                                <ul class="mb-4">
-                                    <li class="text-18 mb-3">
-                                        - Comprehensive coverage of essential web technologies.
-                                    </li>
-                                    <li class="text-18 mb-3">
-                                        - Real-world projects and assignments.
-                                    </li>
-                                    <li class="text-18">
-                                        - Flexible learning at your own pace.
-                                    </li>
-                                </ul>
-                                  <h4 class="mb-2">3. &nbsp;Benefits</h4>
-                                <p class="mb-4">Upon successful completion of the course, you will receive a Certificate of Completion. This certificate validates your new skills and can be added to your resume or LinkedIn profile to showcase your expertise in web development.</p>
-                            </div>
-                        <div class="col-12 g-2 gallary mt-5">
-                           <section class="gallary-sec">
-                                <div class="row row-gap-4 mb-4">
-                                    <div class="col-lg-4">
-                                        <div class="row row-gap-4">
-                                            <div class="col-12">
-                                                <div class="gallary-img1">
-                                                    <img src="image/img-1 (1).jpg" alt="" class="glr-1 gl0">
-                                                </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <div class="gallary-img1">
-                                                    <img src="image/img-2 (1).jpg" alt="" class="glr-1 gl1">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-8 order-lg-2 order-1">
-                                        <div class="row row-gap-4">
-                                            <div class="col-md-6">
-                                                <div class="gallary-img1">
-                                                    <img src="image/img-3 (1).jpg" alt="" class="glr-2 gl2">
-                                                </div>
-                                            </div>
-                                            <div class="col-md-6">
-                                                <div class="gallary-img1">
-                                                    <img src="image/img-4 (1).jpg" alt="" class="glr-2 gl2">
-                                                </div>
-                                            </div>
-                                            <div class="col-12">
-                                                <div class="gallary-img1">
-                                                    <img src="image/img-5.jpg" alt="" class="glr-5 gl5">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </section>
-                      </div>
-                      <div class="col-12 g-2 review mt-5">
-                            <div class="d-flex align-items-center gap-4 mb-3">
-                                <img src="image/service-user-1.png" alt="">
-                                <div>
-                                    <h4 class="text-black mb-2">Loretta Osinski</h4>
-                                    <p>2 weeks ago</p>
-                                </div>
-                            </div>
-                            <p class="mb-4">
-                                The yoga studio has completely changed my approach to fitness and mindfulness. The instructors are incredibly knowledgeable, and their personalized guidance has helped me improve my flexibility and reduce stress. It's a warm and welcoming space for all levels!
-                            </p>
-                            <div class="d-flex align-items-center gap-4 mb-3">
-                                <img src="image/service-user-2.png" alt="">
-                                <div>
-                                    <h4 class="text-black mb-2">May Kuvalis</h4>
-                                    <p>1 weeks ago</p>
-                                </div>
-                            </div>
-                            <p class="mb-4">
-                                I was new to yoga and a bit intimidated, but the beginner-friendly classes and patient instructors made me feel at ease. I've learned so much and feel healthier and more balanced.
-                            </p>
-                            <div class="d-flex align-items-center gap-4 mb-3">
-                                <img src="image/service-user-3.png" alt="">
-                                <div>
-                                    <h4 class="text-black mb-2">Moses O'Reily I</h4>
-                                    <p>3 months ago</p>
-                                </div>
-                            </div>
-                            <p>
-                                I was new to yoga and a bit intimidated, but the beginner-friendly classes and patient instructors made me feel at ease. I've learned so much and feel healthier and more balanced.
-                            </p>
-                      </div>
-                    </div>
-                    </div>
-                    <div class="col-lg-4">
-                        <div class="service-slidebar">
-                            <div class="d-flex align-items-center justify-content-between mb-4">
-                                <h4>Starting From</h4>
-                                <h3 class="text-primary fw-medium">$500</h3>
-                            </div>
-                            <a href="#" class="cus-btn1 position-relative d-inline-flex align-items-center jts">
-                                 <i class="bi bi-hand-index arr-2"></i>
-                                <span class="text text-center tst">Book Now</span>
-                                <span class="circle"></span>
-                                <i class="bi bi-hand-index arr-1"></i>
-                            </a>
-                            <div class="text-center mb-3 mt-4">
-                                <p class="subtitle">100% Satisfaction Guranteed</p>
-                            </div>
-                            <div class="user-block mb-3 d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center gap-4">
-                                    <i class="bi bi-person"></i>
-                                    <p class="mt-2">Decorator</p>
-                                </div>
-                                <p class="mt-2">Rihanna Johns    </p>
-                            </div>
-                            <div class="user-block mb-3 d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center gap-4">
-                                    <i class="bi bi-person"></i>
-                                    <p class="mt-2">Contact</p>
-                                </div>
-                                <a href="tel:+12642978349" class="hover-content">+1 264 297 8349</a>
-                            </div>
-                            <div class="user-block d-flex align-items-center justify-content-between">
-                                <div class="d-flex align-items-center gap-4">
-                                  <i class="bi bi-alarm"></i>
-                                    <p class="text-black mt-2">Timeline</p>
-                                </div>
-                                <p class="mt-2">8-12 Hours</p>
-                                
-                            </div>
-                        </div>
-                    </div>
-                
-                </div>
+        <div class="slide-text">
+            <div class="slide-text-one py-5 s-l-o">
+                <ul class="slide-one-text-list">
+                    <li>
+                        <img src="image/brand-1.png" alt="">
+                    </li>
+                    <li>
+                        <img src="image/brand-2.png" alt="">
+                    </li>
+                    <li>
+                        <img src="image/brand-3.png" alt="">
+                    </li>
+                    <li>
+                        <img src="image/brand-4.png" alt="">
+                    </li>
+                    <li>
+                        <img src="image/brand-5.png" alt="">
+                    </li>
+                    <li>
+                        <img src="image/brand-1.png" alt="">
+                    </li>
+                    <li>
+                        <img src="image/brand-2.png" alt="">
+                    </li>
+                    <li>
+                        <img src="image/brand-3.png" alt="">
+                    </li>
+                    <li>
+                        <img src="image/brand-4.png" alt="">
+                    </li>
+                    <li>
+                        <img src="image/brand-5.png" alt="">
+                    </li>
+                </ul>
             </div>
         </div>
     </section>
@@ -234,7 +224,7 @@
 
     <footer class="footer-sec footer-bg">
         <div class="container-fluid">
-            <div class="row row-gap-5 align-items-center mb-5 mt-5">
+            <div class="row row-gap-5 align-items-center my-5">
                 <div class="col-lg-6">
                     <div class="footer-block d-flex align-items-center justify-content-between">
                         <a class="footer-logo">
@@ -353,8 +343,8 @@
                 <p class="text-black privacy-text mt-5">© 2025. All rights reserved by UI Paradox</p>
             </div>
         </div>
-    </footer>   
-
+    </footer>  
+    
      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasExampleLabel">
 
         <div class="mobile-nav-content">
@@ -368,20 +358,20 @@
             </div>
             <div class="mobile-nav_container my-5">
                 <ul class="main_menu1 main-menu-off">
-                    <li><a href="index3.html">Home</a></li>
-                    <li><a href="about3.html">About Us</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Us</a></li>
                     <li><a href="#">Services<i class="bi bi-caret-down-fill ms-5"></i></a>
                     <ul class="sub_menu">
-                        <li><a href="service3.html">Services</a></li>
-                        <li><a href="service-detail3.html">Services Detail</a></li>
-                        <li><a href="appointment3.html">Appointment</a></li>
+                        <li><a href="service.html">Services</a></li>
+                        <li><a href="service-detail.html">Services Detail</a></li>
+                        <li><a href="appointment.html">Appointment</a></li>
                     </ul></li>
                     <li><a href="#">Blog <i class="bi bi-caret-down-fill ms-5"></i></a>
                     <ul class="sub_menu">
-                        <li><a href="blog3.html">Blog</a></li>
-                        <li><a href="blogdetail3.html">Blog Detail</a></li>
+                        <li><a href="blog.html">Blog</a></li>
+                        <li><a href="blogdetail.html">Blog Detail</a></li>
                     </ul></li>
-                    <li><a href="contact3.html">Contact Us</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
                 </ul>
             </div>
             <ul class="mobile-nav__contact">
@@ -400,33 +390,10 @@
 
     
 
-    <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.7.1.min.js"></script>
-     <script src="js/isotope-docs.min.js"></script>
-    <script src="js/jquery.fancybox.js"></script>
     <script src="js/wow.js"></script>
-    <script src="js/script2.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/owl.carousel.min.js"></script>
-
-
-    <script>
-        // init Isotope
-        var $grid = $('.grid').isotope({
-          // options
-        });
-        // filter items on button click
-        $('.filter-button-group').on( 'click', 'button', function() {
-          var filterValue = $(this).attr('data-filter');
-          $grid.isotope({ filter: filterValue });
-        });
-
-        $("a.group").fancybox({
-		'transitionIn'	:	'elastic',
-		'transitionOut'	:	'elastic',
-		'speedIn'		:	600, 
-		'speedOut'		:	200, 
-		'overlayShow'	:	false
-	});
-    </script>
 </body>
 </html>

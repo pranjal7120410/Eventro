@@ -1258,3 +1258,6 @@ footer .links-block ul li {
 .pricing-card:hover .hsl{
   color:white;
 }
+.s-l-o{
+  background-color: transparent  !important;
+}
