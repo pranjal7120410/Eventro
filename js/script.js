@@ -1,4 +1,26 @@
-$(document).ready(function(){
+$(document).ready(function (){
+
+
+	// $(window).scroll(function () {
+	// 	var h = $(window).scrollTop();
+	// 	if(h > 50){
+	// 		$(".screen_header").addClass("fixed");
+	// 	}
+	// 	else{
+	// 		$(".screen_header").removeClass("fixed");
+	// 	}
+	// });
+
+
+	let throttleTimer;
+$(window).scroll(function () {
+    clearTimeout(throttleTimer);
+    throttleTimer = setTimeout(function () {
+        const h = $(window).scrollTop();
+        $(".screen_header").toggleClass("fixed", h > 50);
+    }, 100);
+});
+
     $("#testimonial-slider").owlCarousel({
         items:2,
         loop:true,

@@ -7,8 +7,27 @@
   padding: 0;
 }
 body{
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
     /* background-color: beige; */
+}
+
+.screen_header.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    background: #fff;
+    animation: fixedheader 1s ease-in-out;
+}
+@keyframes fixedheader{
+  0%{
+    transform: translateY(-100%);
+  }
+  100%{
+    transform: translateY(0);
+  }
 }
 
 :root{
@@ -92,7 +111,7 @@ header{
 .main_menu li{
   position: relative;
 }
-.main_menu1 l a:hover{
+.main_menu li a:hover{
   background-color: var(--bgprimary);
   color: white;
   border-radius: 50px;
@@ -133,6 +152,9 @@ header{
   margin: 5px;
 }
 .main_menu li:hover .sub_menu{
+  display: block;
+}
+.main_menu1 li:hover .sub_menu{
   display: block;
 }
 .menu-btn-right{
