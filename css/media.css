@@ -255,9 +255,9 @@
 @media screen and (max-width:426px){
 
      .img-block img{
-        width: 394px !important;
+        width: 364px !important;
         height: 367px !important;
-        margin-left: 0px !important;
+        margin-left: 10px !important;
      }
      .wrapper-sec{
         width: 425px !important;
