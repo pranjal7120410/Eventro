@@ -36,11 +36,6 @@
     .container-fluid{
         padding: 0 24px !important;
     }
-     .img-block img{
-        width: 364px !important;
-        height: 367px !important;
-        margin-left: 10px !important;
-     } 
     .time-block{
         justify-content: start !important;
     }
